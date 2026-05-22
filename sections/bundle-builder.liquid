@@ -12,6 +12,7 @@
   endfor
 -%}
 
+{% if page.handle == 'bundle-builder' %}
 <section class="bundle-builder color-{{ section.settings.color_scheme }}" data-bundle-builder>
   <div class="bundle-builder__wrap">
     <header class="bundle-builder__header">
@@ -123,6 +124,7 @@
     </div>
   </aside>
 </section>
+{% endif %}
 
 {% schema %}
 {

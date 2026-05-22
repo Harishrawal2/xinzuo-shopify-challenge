@@ -55,9 +55,86 @@
         "padding-block-start": 40,
         "padding-block-end": 80
       }
+    },
+    "bundle_builder_fallback": {
+      "type": "bundle-builder",
+      "blocks": {
+        "zhen_chef": {
+          "type": "product",
+          "settings": {
+            "product": "zhen-xz05-series-8-inch-chef-knife",
+            "series": "zhen"
+          }
+        },
+        "zhen_santoku": {
+          "type": "product",
+          "settings": {
+            "product": "xinzuo-zhen-series-7-5-inch-santoku-knife",
+            "series": "zhen"
+          }
+        },
+        "zhen_utility": {
+          "type": "product",
+          "settings": {
+            "product": "5-inch-utility-knife-zhen-series-pm8o-wy",
+            "series": "zhen"
+          }
+        },
+        "xin_chef": {
+          "type": "product",
+          "settings": {
+            "product": "8-chef-knife-master-series-b30",
+            "series": "xin"
+          }
+        },
+        "xin_yu": {
+          "type": "product",
+          "settings": {
+            "product": "yu-series-8-inch-chef-knife",
+            "series": "xin"
+          }
+        },
+        "xin_ji": {
+          "type": "product",
+          "settings": {
+            "product": "8-chef-knife-ji-series-x08",
+            "series": "xin"
+          }
+        },
+        "accessory_board": {
+          "type": "product",
+          "settings": {
+            "product": "xinzuo-hezhen-end-grain-medium-chopping-board",
+            "series": "accessories"
+          }
+        },
+        "accessory_set": {
+          "type": "product",
+          "settings": {
+            "product": "hezhen-supreme-2-piece-knife-set-8-chef-5-utility",
+            "series": "accessories"
+          }
+        }
+      },
+      "block_order": [
+        "zhen_chef",
+        "zhen_santoku",
+        "zhen_utility",
+        "xin_chef",
+        "xin_yu",
+        "xin_ji",
+        "accessory_board",
+        "accessory_set"
+      ],
+      "settings": {
+        "heading": "Build Your Bundle",
+        "helper_text": "Choose products from each series and unlock bundle savings. Buy 2 for 10% off, 3 for 15% off, or 4+ for 20% off.",
+        "color_scheme": "scheme-1"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "bundle_builder_fallback"
   ]
 }
