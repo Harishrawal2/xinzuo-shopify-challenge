@@ -164,7 +164,7 @@
       "type": "collection_video",
       "settings": {
         "width": "full",
-        "video": "shopify://files/videos/b37-001.mp4",
+        "video": "",
         "color_scheme": "scheme-5"
       }
     },
