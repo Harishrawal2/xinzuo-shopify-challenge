@@ -356,9 +356,7 @@ if (WRITE) {
 console.log(`\n=== Pages (${seed.pages.length}) ===`);
 if (WRITE) {
   const res = await pool(seed.pages, async (p) => {
-    const page = { title: p.title, handle: p.handle, body_html: p.body_html, published: true };
-    if (p.handle === 'bundle-builder') page.template_suffix = 'bundle-builder';
-    await api('POST', 'pages.json', { page });
+    await api('POST', 'pages.json', { page: { title: p.title, handle: p.handle, body_html: p.body_html, published: true } });
   });
   created.pages = res.ok;
   console.log(`  ${res.ok} created, ${res.fail} failed`);
