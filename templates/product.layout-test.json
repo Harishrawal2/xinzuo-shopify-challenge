@@ -1218,8 +1218,8 @@
         "background_type": "none",
         "block_type": "text",
         "heading_footer": "",
-        "image_video": "image",
-        "video": "",
+        "image_video": "video",
+        "video": "shopify://files/videos/X06-001-without-cow.mp4",
         "color_scheme": "scheme-5",
         "footer_state": "visible",
         "footer_type": "third",
@@ -1257,7 +1257,7 @@
         "title": "<h2>Mo Series Damascus</h2><h2>Blade Mastery Redefined</h2>",
         "image": "shopify://shop_images/03_e8c192ad-892e-42a4-a4c5-3dae3a55ea9d.png",
         "content": "<p>Forged with 67 layers, vacuum treated, and balanced to perfection—Mo Series delivers sharpness and durability beyond expectation.</p>",
-        "color_scheme": "scheme-5"
+        "color_scheme": "scheme-5",
       }
     },
     "product_series2_7tEyCk": {
