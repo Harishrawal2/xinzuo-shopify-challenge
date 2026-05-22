@@ -12,143 +12,77 @@
     "main": {
       "type": "bundle-builder",
       "blocks": {
-        "series_mo": {
-          "type": "series_collection",
+        "zhen_chef": {
+          "type": "product",
           "settings": {
-            "collection": "xinzuo-mo-series-knives",
-            "tab_label": "MO"
+            "product": "zhen-xz05-series-8-inch-chef-knife",
+            "series": "zhen"
           }
         },
-        "series_lan": {
-          "type": "series_collection",
+        "zhen_santoku": {
+          "type": "product",
           "settings": {
-            "collection": "xinzuo-lan-series-knives",
-            "tab_label": "LAN"
+            "product": "xinzuo-zhen-series-7-5-inch-santoku-knife",
+            "series": "zhen"
           }
         },
-        "series_supreme": {
-          "type": "series_collection",
+        "zhen_utility": {
+          "type": "product",
           "settings": {
-            "collection": "hezhen-supreme-series-knives",
-            "tab_label": "Supreme"
+            "product": "5-inch-utility-knife-zhen-series-pm8o-wy",
+            "series": "zhen"
           }
         },
-        "series_retro": {
-          "type": "series_collection",
+        "xin_chef": {
+          "type": "product",
           "settings": {
-            "collection": "hezhen-retro-series-knives",
-            "tab_label": "Retro"
+            "product": "8-chef-knife-master-series-b30",
+            "series": "xin"
           }
         },
-        "series_zhen_x05z": {
-          "type": "series_collection",
+        "xin_yu": {
+          "type": "product",
           "settings": {
-            "collection": "zhen-x05z-series",
-            "tab_label": "X05Z Zhen"
+            "product": "yu-series-8-inch-chef-knife",
+            "series": "xin"
           }
         },
-        "series_zhen_pm8m": {
-          "type": "series_collection",
+        "xin_ji": {
+          "type": "product",
           "settings": {
-            "collection": "pm8m-zhen-series",
-            "tab_label": "PM8M Zhen"
+            "product": "8-chef-knife-ji-series-x08",
+            "series": "xin"
           }
         },
-        "series_zhen_pm8o": {
-          "type": "series_collection",
+        "accessory_board": {
+          "type": "product",
           "settings": {
-            "collection": "pm8o-zhen-series",
-            "tab_label": "PM8O Zhen"
+            "product": "xinzuo-hezhen-end-grain-medium-chopping-board",
+            "series": "accessories"
           }
         },
-        "series_elegant": {
-          "type": "series_collection",
+        "accessory_set": {
+          "type": "product",
           "settings": {
-            "collection": "b38l-elegant-series",
-            "tab_label": "B38L Elegant"
-          }
-        },
-        "series_yu": {
-          "type": "series_collection",
-          "settings": {
-            "collection": "b13r-yu-series",
-            "tab_label": "B13R Yu"
-          }
-        },
-        "series_yi": {
-          "type": "series_collection",
-          "settings": {
-            "collection": "b27-yi-series",
-            "tab_label": "B27 Yi"
-          }
-        },
-        "series_master": {
-          "type": "series_collection",
-          "settings": {
-            "collection": "b30-master-series",
-            "tab_label": "B30 Master"
-          }
-        },
-        "series_ji": {
-          "type": "series_collection",
-          "settings": {
-            "collection": "x08-ji-series",
-            "tab_label": "X08 Ji"
-          }
-        },
-        "series_pin": {
-          "type": "series_collection",
-          "settings": {
-            "collection": "x020-pin-series",
-            "tab_label": "X020 Pin"
-          }
-        },
-        "tier_1": {
-          "type": "discount_tier",
-          "settings": {
-            "min_items": 3,
-            "discount_percent": 10,
-            "label": "Save 10%",
-            "discount_code": "BUNDLE-10"
-          }
-        },
-        "tier_2": {
-          "type": "discount_tier",
-          "settings": {
-            "min_items": 5,
-            "discount_percent": 15,
-            "label": "Save 15%",
-            "discount_code": "BUNDLE-15"
+            "product": "hezhen-supreme-2-piece-knife-set-8-chef-5-utility",
+            "series": "accessories"
           }
         }
       },
       "block_order": [
-        "series_mo",
-        "series_lan",
-        "series_supreme",
-        "series_retro",
-        "series_zhen_x05z",
-        "series_zhen_pm8m",
-        "series_zhen_pm8o",
-        "series_elegant",
-        "series_yu",
-        "series_yi",
-        "series_master",
-        "series_ji",
-        "series_pin",
-        "tier_1",
-        "tier_2"
+        "zhen_chef",
+        "zhen_santoku",
+        "zhen_utility",
+        "xin_chef",
+        "xin_yu",
+        "xin_ji",
+        "accessory_board",
+        "accessory_set"
       ],
       "settings": {
-        "heading": "Build Your Knife Bundle",
-        "subheading": "Select your favourite knives and save!",
-        "cta_text": "Add Bundle to Cart",
-        "min_items": 3,
-        "max_items": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "padding_block_start": 60,
-        "padding_block_end": 120
+        "heading": "Build Your Bundle",
+        "helper_text": "Choose products from each series and unlock bundle savings. Buy 2 for 10% off, 3 for 15% off, or 4+ for 20% off.",
+        "color_scheme": "scheme-1"
       }
     }
   },
