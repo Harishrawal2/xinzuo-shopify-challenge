@@ -198,9 +198,7 @@
     <footer>
         <div class="footer-menu">
             <div class="footer-left">
-                {% if section.settings.logo != blank %}
-                    <img src="{{ section.settings.logo | image_url: width: 800 }}" width="100%" height="100%" loading="lazy" alt="Footer Logo">
-                {% endif %}
+                <img src="{{ section.settings.logo | image_url: width: 800 }}" width="100%" height="100%" loading="lazy" alt="Footer Logo">
                 <p>{{ section.settings.group-heading }}</p>
                 <p>{{ section.settings.group-content }}</p>
             </div>
@@ -211,15 +209,11 @@
                 <div class="footer-list">
                     <span class="menu-title">{{ section.settings.contact_us }}</span>
                     <a href="tel:{{ section.settings.phone-number | remove: ' ' }}" class="menu-item">
-                        {% if section.settings.phone-icon != blank %}
-                            <img src="{{ section.settings.phone-icon | image_url: width: 800 }}" width="100%" height="100%" loading="lazy" alt="Phone">
-                        {% endif %}
+                        <img src="{{ section.settings.phone-icon | image_url: width: 800 }}" width="100%" height="100%" loading="lazy" alt="Phone">
                         <p>{{ section.settings.phone-number }}</p>
                     </a>
                     <a href="/pages/contact" class="menu-item">
-                        {% if section.settings.email-icon != blank %}
-                            <img src="{{ section.settings.email-icon | image_url: width: 800 }}" width="100%" height="100%" loading="lazy" alt="Email">
-                        {% endif %}
+                        <img src="{{ section.settings.email-icon | image_url: width: 800 }}" width="100%" height="100%" loading="lazy" alt="Email">
                         <p>Get in Touch</p>
                     </a>
                     <ul class="social-links">
